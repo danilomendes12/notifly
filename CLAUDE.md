@@ -34,7 +34,3 @@ Código defensável em code review é mais importante que velocidade de entrega.
 - Não criar pacotes controller/service/repository como top-level
 - Não adicionar Spring Security ainda (Fase 0-5 sem auth, decisão consciente)
 - Não otimizar prematuramente — primeiro funciona, depois ADR explica trade-off
-
-## Fase atual
-Fase 0 — setup inicial. Endpoint POST /notifications retornando 202.
-Próxima: Fase 1 — Outbox Pattern + Idempotência.
