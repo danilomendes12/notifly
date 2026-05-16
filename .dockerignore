@@ -1,0 +1,15 @@
+# Build output
+target/
+
+# VCS / IDE
+.git/
+.gitignore
+.idea/
+*.iml
+
+# Docker / docs (not needed inside the build context)
+Dockerfile
+.dockerignore
+docker-compose.yml
+*.md
+LICENSE

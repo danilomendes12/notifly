@@ -40,7 +40,7 @@ spring:
       properties:
         spring.json.trusted.packages: "br.com.notifly.*"
       auto-offset-reset: earliest
-      enable-auto-commit: false  # commit manual, parte da sem‚ntica at-least-once
+      enable-auto-commit: false  # commit manual, parte da sem√¢ntica at-least-once
 
   data:
     redis:
@@ -68,6 +68,6 @@ logging:
   level:
     br.com.notifly: DEBUG
     org.hibernate.SQL: DEBUG
-    org.hibernate.orm.jdbc.bind: TRACE  # mostra valores dos par‚metros SQL em dev
+    org.hibernate.orm.jdbc.bind: TRACE  # mostra valores dos par√¢metros SQL em dev
   pattern:
     console: "%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"
